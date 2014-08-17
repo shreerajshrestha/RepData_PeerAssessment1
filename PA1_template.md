@@ -73,7 +73,7 @@ totalmean <- mean( as.numeric(totalstepsperday$Total_Steps), na.rm = T)
 totalmedian <- median( as.numeric(totalstepsperday$Total_Steps), na.rm = T)
 ```
 
-The mean and the median of total steps per day was calculated to be 1.0766 &times; 10<sup>4</sup> and 1.0765 &times; 10<sup>4</sup> respectively.
+The mean and the median of total steps per day was calculated to be **1.0766 &times; 10<sup>4</sup>** and **1.0765 &times; 10<sup>4</sup>** respectively.
 
 
 ## What is the average daily activity pattern?
@@ -150,7 +150,7 @@ totalmeanimputed <- mean( as.numeric(totalstepsperdayimputed$Total_Steps), na.rm
 totalmedianimputed <- median( as.numeric(totalstepsperdayimputed$Total_Steps), na.rm = T)
 ```
 
-The mean and the median after imputing the missing values were 1.0766 &times; 10<sup>4</sup> and 1.0766 &times; 10<sup>4</sup> respectively. It can be concluded that after imputation, the median value became equal to the mean because of substitutions of the missing intervals with average steps for its corresponding interval.
+The mean and the median after imputing the missing values were **1.0766 &times; 10<sup>4</sup>** and **1.0766 &times; 10<sup>4</sup>** respectively. It can be concluded that after imputation, the median value became equal to the mean because of substitutions of the missing intervals with average steps for its corresponding interval.
 
 ## Are there differences in activity patterns between weekdays and weekends?
 
